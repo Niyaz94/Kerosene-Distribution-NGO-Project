@@ -1,0 +1,11 @@
+#datatabledonationView th{
+    text-align:center;
+    font-size: 12px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.changeRowColor{
+    background-color: rgb(173, 173, 218);
+}

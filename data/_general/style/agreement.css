@@ -1,0 +1,14 @@
+#datatableagreementView th{
+    text-align:center;
+    font-size: 16px;
+}
+.AnyTime-win{
+    z-index: 1151 !important;
+}
+.daterangepicker{
+    z-index: 1151 !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

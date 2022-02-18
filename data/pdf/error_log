@@ -1,0 +1,425 @@
+[23-Nov-2019 10:44:27 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:45:33 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:46:44 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:46:55 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:48:12 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:48:25 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:49:21 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 10:50:09 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 12:57:58 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 12:58:10 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 12:59:28 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:16:59 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(121): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:17:07 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(121): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:18:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/CssManager.php on line 1443
+[23-Nov-2019 13:32:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(121): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:32:52 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(121): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:33:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 20404
+[23-Nov-2019 13:34:18 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 16258
+[23-Nov-2019 13:55:02 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(121): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 13:58:32 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 14:07:02 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 14:08:05 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 14:08:22 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 14:51:19 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 15:16:14 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 16:24:39 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 16:24:46 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 16:29:41 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: The HTML code size is larger than pcre.backtrack_limit 1000000. You should use WriteHTML() with smaller string lengths. in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:26549
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(13136): Mpdf\Mpdf->AdjustHTML('\n       \n      ...', 8)
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->WriteHTML('\n       \n      ...', 2)
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 26549
+[23-Nov-2019 16:33:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 10879
+[23-Nov-2019 16:41:47 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 15110
+[05-Dec-2019 21:57:29 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_all_round.php(33): _reportClass->report1(Array, 'FMYCaseNumber b...')
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[14-Dec-2019 07:32:55 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_all_round.php(86): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[15-Dec-2019 21:44:06 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and 3 and
+            substring_index(substring_index(FMYRegisterDate," ",1)," "' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[23-Dec-2019 13:42:48 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 13:43:47 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 13:44:56 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 14:09:08 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 14:25:15 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 14:26:21 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Dec-2019 14:27:22 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[25-Dec-2019 10:11:32 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and 6868686868 and
+            substring_index(substring_index(FMYRegisterDate,"' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[25-Dec-2019 10:11:44 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and 88 and
+            substring_index(substring_index(FMYRegisterDate," ",1)," ' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[29-Dec-2019 09:09:14 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[29-Dec-2019 09:09:24 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[29-Dec-2019 09:09:36 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[30-Dec-2019 21:25:38 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and  and 
+                    CMPID=FMYCMPFORID and
+                    FMYID=DO' at line 24 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(61): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_all_round.php(33): _reportClass->report1(Array, 'FMYCaseNumber b...')
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[13-Jan-2020 10:08:42 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[19-Jan-2020 08:14:42 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_round_total.php(176): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[31-Jan-2020 19:03:25 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:03:32 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:04:52 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:05:08 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:05:14 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:05:21 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:05:28 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:42:43 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 19:44:52 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(20): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 20:29:31 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(22): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[31-Jan-2020 20:30:35 Asia/Beirut] PHP Fatal error:  Uncaught exception 'Mpdf\MpdfException' with message 'Unable to set PDF file protection, CSPRNG Functions are not available. Use paragonie/random_compat polyfill or upgrade to PHP 7.' in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php:11
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/ServiceFactory.php(69): Mpdf\Pdf\Protection\UniqidGenerator->__construct()
+#1 /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php(1044): Mpdf\ServiceFactory->getServices(Object(Mpdf\Mpdf), Object(Psr\Log\NullLogger), Array, 0, Object(Mpdf\Language\LanguageToFont), Object(Mpdf\Language\ScriptToLanguage), NULL, NULL, NULL, NULL)
+#2 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(22): Mpdf\Mpdf->__construct(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Pdf/Protection/UniqidGenerator.php on line 11
+[09-Feb-2020 13:01:53 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and  and
+            substring_index(substring_index(FMYRegisterDate," ",1)," ",' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[09-Feb-2020 11:31:04 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[09-Feb-2020 11:31:15 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[09-Feb-2020 11:31:37 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[09-Feb-2020 11:31:54 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Feb-2020 08:59:32 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_round_total.php(179): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[23-Feb-2020 08:59:36 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_round_total.php(179): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[26-Feb-2020 04:39:20 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_all_round.php(86): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[16-Mar-2020 19:03:11 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[16-Mar-2020 19:04:15 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[01-Apr-2020 07:21:54 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_family_detail.php(148): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[01-Apr-2020 07:43:14 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/report_all_round.php(86): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[08-Apr-2020 11:54:25 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and 89999999999999999 and
+              
+            CMPDeleted=0' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[08-Apr-2020 11:55:22 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'and 89999999999999999 and
+              FMYCMPFORID=13 and 
+            CMPDelet' at line 10 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n        select...')
+#1 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(53): class_database->return_data('\n        select...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[13-Apr-2020 10:48:31 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394
+[13-Apr-2020 10:48:43 UTC] PHP Fatal error:  Uncaught Mpdf\MpdfException: Data has already been sent to output (/home/dtsblumont/public_html/v1/data/_general/backend/_header.php at line 10), unable to output PDF file in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php:9394
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/pdf/familyBarcode.php(163): Mpdf\Mpdf->Output()
+#1 {main}
+  thrown in /home/dtsblumont/public_html/v1/API/vendor/mpdf/mpdf/src/Mpdf.php on line 9394

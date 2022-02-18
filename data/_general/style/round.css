@@ -1,0 +1,15 @@
+#datatableroundView th{
+    text-align:center;
+    font-size: 12px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.daterangepicker{
+    z-index: 1151 !important;
+}
+
+.AnyTime-win{
+    z-index: 1151 !important;
+}

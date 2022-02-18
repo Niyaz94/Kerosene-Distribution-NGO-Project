@@ -1,0 +1,13 @@
+.page-title {
+    padding: 40px 36px 40px 0;
+}
+
+@font-face {
+    font-family: "Noto Kufi Arabic";
+    src: url(assets/custom_font/NotoKufiArabic-Regular.ttf) format("truetype");
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

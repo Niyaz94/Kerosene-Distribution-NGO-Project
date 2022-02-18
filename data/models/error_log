@@ -1,0 +1,240 @@
+[16-Nov-2019 20:46:58 Asia/Baghdad] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'niyaz'@'localhost' (using password: YES)' in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'niyaz', '61#2d2A2j51^_4')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'niyaz', '61#2d2A2j51^_4', 'kt_kerosene')
+#2 /home/dtsblumont/public_html/v1/data/models/_login.php(18): require_once('/home/dtsblumon...')
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[16-Nov-2019 20:51:52 Asia/Baghdad] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'keentech_user'@'localhost' (using password: YES)' in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'keentech_user', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'keentech_user', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/models/_login.php(18): require_once('/home/dtsblumon...')
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[16-Nov-2019 20:57:33 Asia/Baghdad] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'keentech_user'@'localhost' (using password: YES)' in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'keentech_user', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'keentech_user', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/models/_login.php(18): require_once('/home/dtsblumon...')
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[16-Nov-2019 18:26:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:30:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:33:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:37:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:38:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 18:51:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 20:02:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 20:05:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 20:10:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[16-Nov-2019 20:11:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[17-Nov-2019 20:19:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:17:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:18:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:19:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:19:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:20:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:20:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:20:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:23:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[18-Nov-2019 08:33:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[19-Nov-2019 16:15:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[19-Nov-2019 16:58:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[19-Nov-2019 16:59:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[19-Nov-2019 17:00:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[19-Nov-2019 17:00:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dtsblumont/public_html/v1/data/models/logout.php:10) in /home/dtsblumont/public_html/v1/data/models/logout.php on line 12
+[05-Dec-2019 21:55:02 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(61): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[05-Dec-2019 21:55:57 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[05-Dec-2019 21:56:37 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[05-Dec-2019 21:56:40 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[05-Dec-2019 21:56:46 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[05-Dec-2019 21:57:27 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') as DDTQty
+                FROM
+                    family,
+                   ' at line 13 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[10-Dec-2019 13:10:45 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[10-Dec-2019 13:10:48 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[15-Dec-2019 18:11:22 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 29 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[15-Dec-2019 18:12:38 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 29 in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_reportClass.php(60): class_database->return_data('\n              ...', 'key_all')
+#2 /home/dtsblumont/public_html/v1/data/models/_report.php(38): _reportClass->report1(Array)
+#3 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[17-Dec-2019 21:03:54 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[17-Dec-2019 21:04:06 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[17-Dec-2019 21:04:24 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[25-Dec-2019 10:15:27 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[25-Dec-2019 10:15:27 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in Unknown on line 0
+[25-Dec-2019 10:15:38 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[25-Dec-2019 10:15:38 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in Unknown on line 0
+[25-Dec-2019 10:15:39 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[25-Dec-2019 10:15:39 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in Unknown on line 0
+[30-Dec-2019 13:58:48 Asia/Beirut] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[30-Dec-2019 13:58:48 Asia/Beirut] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[30-Dec-2019 13:58:50 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[31-Dec-2019 09:24:38 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[31-Dec-2019 09:24:38 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in Unknown on line 0
+[31-Dec-2019 09:24:48 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[31-Dec-2019 09:24:48 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in Unknown on line 0
+[18-Jan-2020 23:01:33 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[18-Jan-2020 23:02:27 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Jan-2020 11:45:09 Asia/Beirut] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[22-Jan-2020 11:45:09 Asia/Beirut] PHP Warning:  PDOStatement::execute(): MySQL server has gone away in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[22-Jan-2020 11:45:09 Asia/Beirut] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[22-Jan-2020 11:45:09 Asia/Beirut] PHP Warning:  PDOStatement::execute(): Error reading result set's header in /home/dtsblumont/public_html/v1/data/_general/backend/ssp.php on line 584
+[22-Jan-2020 11:45:10 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[22-Jan-2020 11:45:10 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[22-Jan-2020 11:45:11 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[25-Jan-2020 23:33:44 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[07-Feb-2020 14:08:17 Asia/Beirut] PHP Warning:  PDO::query(): MySQL server has gone away in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[07-Feb-2020 14:08:17 Asia/Beirut] PHP Warning:  PDO::query(): Error reading result set's header in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[07-Feb-2020 14:08:17 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:20
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(20): PDO->query('\n              ...')
+#1 /home/dtsblumont/public_html/v1/data/models/_donation2.php(132): class_database->return_data('\n              ...', 'key_all')
+#2 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 20
+[07-Feb-2020 14:08:18 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[07-Feb-2020 14:08:21 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[07-Feb-2020 14:08:24 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[10-Feb-2020 22:13:44 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[10-Feb-2020 22:13:49 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 4096 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[14-Mar-2020 09:58:59 Asia/Beirut] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/dtsblumont/public_html/v1/data/_general/backend/database.php:6
+Stack trace:
+#0 /home/dtsblumont/public_html/v1/data/_general/backend/database.php(6): PDO->__construct('mysql:host=loca...', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...')
+#1 /home/dtsblumont/public_html/v1/data/_general/backend/db_connect.php(11): class_database->__construct('localhost', 'dtsblumont_keen...', 'WOH],_wt@InS,tY...', 'dtsblumont_kero...')
+#2 /home/dtsblumont/public_html/v1/data/_general/backend/_header.php(13): require_once('/home/dtsblumon...')
+#3 /home/dtsblumont/public_html/v1/data/models/_donation2.php(2): include_once('/home/dtsblumon...')
+#4 {main}
+  thrown in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 6
+[22-Mar-2020 00:04:46 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 00:05:04 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 00:05:05 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 01:14:49 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 01:15:25 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 01:15:26 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24
+[22-Mar-2020 01:15:27 Asia/Beirut] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20480 bytes) in /home/dtsblumont/public_html/v1/data/_general/backend/database.php on line 24

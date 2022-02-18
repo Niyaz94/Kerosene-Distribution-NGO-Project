@@ -1,0 +1,23 @@
+tfoot {
+    display: table-header-group !important;
+}
+
+.dataTable {
+    font-size: 11.5px;
+}
+
+.thumb img:not(.media-preview) {
+    height: 100px;
+}
+
+.input-group input {
+    text-align: center;
+}
+#systemLogDatatable th{
+    text-align:center;
+    font-size: 12px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

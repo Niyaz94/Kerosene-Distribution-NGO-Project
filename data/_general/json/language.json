@@ -1,0 +1,63 @@
+{
+    "ar":{
+      "name":"Arabic",
+      "nativeName":"العربية"
+    },
+    "zh":{
+      "name":"Chinese",
+      "nativeName":"中文 (Zhōngwén), 汉语, 漢語"
+    },
+    "en":{
+      "name":"English",
+      "nativeName":"English"
+    },
+    "fr":{
+      "name":"French",
+      "nativeName":"français, langue française"
+    },
+    "de":{
+      "name":"German",
+      "nativeName":"Deutsch"
+    },
+   
+    "hi":{
+      "name":"Hindi",
+      "nativeName":"हिन्दी, हिंदी"
+    },
+    "it":{
+      "name":"Italian",
+      "nativeName":"Italiano"
+    },
+    "ja":{
+      "name":"Japanese",
+      "nativeName":"日本語 (にほんご／にっぽんご)"
+    },
+    "ko":{
+      "name":"Korean",
+      "nativeName":"한국어 (韓國語), 조선말 (朝鮮語)"
+    },
+    "ku":{
+      "name":"Kurdish",
+      "nativeName":"كوردی‎"
+    },
+    "fa":{
+      "name":"Persian",
+      "nativeName":"فارسی"
+    },
+    "pl":{
+      "name":"Polish",
+      "nativeName":"polski"
+    },
+    "pt":{
+      "name":"Portuguese",
+      "nativeName":"Português"
+    },
+    "ru":{
+      "name":"Russian",
+      "nativeName":"русский язык"
+    },
+    "sv":{
+      "name":"Swedish",
+      "nativeName":"svenska"
+    }
+  }

@@ -1,0 +1,170 @@
+html {
+    background: #e1dee6;
+}
+
+body {
+    background: #e1dee6;
+    color: #333;
+    padding-top: 0px !important;
+}
+
+#demo {
+    width: 99%;
+    margin: 10px auto;
+}
+
+#demo {
+    text-align: center;
+}
+
+#demo ul {
+    display: inline-table;
+    top: 50px
+}
+
+#demo li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+}
+
+nav ul li {
+    float: left;
+    margin: 2px;
+}
+
+nav ul li i {
+    opacity: 0.7;
+}
+
+nav ul li i:hover {
+    opacity: 1;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    nav ul li a {
+        text-decoration: none;
+        color: #FFF;
+        display: block;
+        width: 200px;
+        height: 190px;
+    }
+
+    nav ul li a i {
+        font-size: 100px !important;
+        height: 100px;
+        position: relative;
+        top: 20px !important;
+        color: white;
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li a span {
+        font-size: 20px !important;
+        font-weight: lighter;
+        text-transform: uppercase;
+        padding: 0px;
+        position: relative;
+        top: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul li a {
+        text-decoration: none;
+        color: #FFF;
+        display: block;
+        width: 145px;
+        height: 150px;
+    }
+
+    nav ul li a i {
+        font-size: 70px;
+        height: 100px;
+        position: relative;
+        top: 10px;
+        color: white;
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li a span {
+        font-size: 20px !important;
+        font-weight: lighter;
+        text-transform: uppercase;
+        padding: 0px;
+        position: relative;
+        top: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 415px) {
+    nav ul li a {
+        text-decoration: none;
+        color: #FFF;
+        display: block;
+        width: 175px;
+        height: 180px;
+        margin-left: 15px;
+    }
+
+    nav ul li a i {
+        font-size: 90px !important;
+        height: 100px;
+        position: relative;
+        top: 10px !important;
+        color: white;
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li a span {
+        font-size: 20px !important;
+        font-weight: lighter;
+        text-transform: uppercase;
+        padding: 0px;
+        position: relative;
+        top: 15px;
+        text-align: center;
+    }
+}
+
+.page-title {
+    padding: 16px 36px 16px 0;
+}
+
+html[dir="rtl"] #demo li {
+    float: right !important;
+}
+
+#demo li {
+    float: left !important;
+}
+
+.offline-title {
+    font-size: 90px;
+}
+
+.error-title {
+    color: #fff;
+    font-size: 100px;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Noto Kufi Arabic";
+    src: url(../../custom_font/NotoKufiArabic-Bold.ttf) format("truetype");
+}

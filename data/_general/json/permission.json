@@ -1,0 +1,816 @@
+[
+    {
+        "id":9,
+        "page":"camp",
+        "page_type":"normal",
+        "symbol":"CMP",
+        "name":"Camp",
+        "type":"",
+        "color":"bg-brown-600",
+        "icon":" icon-home9",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"CMPA_HD",
+                "text":"Add New Camp",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"addingButton"
+            },{
+                "id"  :"CMPE_TB",
+                "text":"Edit Camp",
+                "icon":"icon-pencil7",
+                "color":"primary",
+                "condition":[],
+                "value":["CMPID"],
+                "default":1,
+                "functionName":"editcamp"
+            },{
+                "id"  :"CMPD_TB",
+                "text":"Delete Camp",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[
+                    ["familyTotal","eq",0]
+                ],
+                "value":["CMPID"],
+                "default":1,
+                "functionName":"deletecamp"
+            }
+        ]
+    },{
+        "id":10,
+        "page":"product",
+        "page_type":"normal",
+        "symbol":"PDU",
+        "name":"Item",
+        "type":"admin",
+        "color":"bg-danger-300",
+        "icon":" icon-basket",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"CMPA_HD",
+                "text":"Add New Item",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"addingButton"
+            },{
+                "id"  :"PDUE_TB",
+                "text":"Edit Item",
+                "icon":"icon-pencil7",
+                "color":"primary",
+                "condition":[],
+                "value":["PDUID"],
+                "default":1,
+                "functionName":"editproduct"
+            },{
+                "id"  :"PDUD_TB",
+                "text":"Delete Item",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[],
+                "value":["PDUID"],
+                "default":1,
+                "functionName":"deleteproduct"
+            },{
+                "id"  :"PDUZ_TB",
+                "text":"Change Item Amount",
+                "icon":"icon-equalizer",
+                "color":"success",
+                "condition":[],
+                "value":["PDUID"],
+                "default":1,
+                "functionName":"amountproduct"
+            }
+        ]
+    },{
+        "id":11,
+        "page":"family",
+        "page_type":"normal",
+        "symbol":"FMY",
+        "name":"Family",
+        "type":"",
+        "color":"bg-primary-300",
+        "icon":" icon-man-woman",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"FMYA_HD",
+                "text":"Add New",
+                "icon":" icon-add-to-list",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"addingButton"
+            },{
+                "id"  :"FMYB_HD",
+                "text":"Print",
+                "icon":"icon-barcode2",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-danger",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"showingFamilyBarcode"
+            },{
+                "id"  :"FMYC_HD",
+                "text":"Insert",
+                "icon":"icon-file-download",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-success",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"insertCSVFile"
+            },{
+                "id"  :"FMYE_TB",
+                "text":"Edit Family",
+                "icon":"icon-pencil7",
+                "color":"primary",
+                "condition":[],
+                "value":["FMYID"],
+                "default":1,
+                "functionName":"editfamily"
+            },{
+                "id"  :"FMYD_TB",
+                "text":"Delete Family",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[],
+                "value":["FMYID"],
+                "default":1,
+                "functionName":"deletefamily"
+            },{
+                "id"  :"FMYP_TB",
+                "text":"Item Maximum Amount",
+                "icon":"icon-equalizer",
+                "color":"success",
+                "condition":[],
+                "value":["FMYID"],
+                "default":1,
+                "functionName":"amountfamily"
+            },{
+                "id"  :"FMYF_TB",
+                "text":"Change Barcode",
+                "icon":"icon-barcode2",
+                "color":"warning",
+                "condition":[],
+                "value":["FMYID"],
+                "default":1,
+                "functionName":"changeBarcode"
+            },{
+                "id"  :"FMYG_HD",
+                "text":"Active",
+                "icon":"icon-unlocked",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-info",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"activeCSVFamily"
+            },{
+                "id"  :"FMYH_HD",
+                "text":"Deactive",
+                "icon":"icon-lock5",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-warning",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"deActiveCSVFamily"
+            }
+        ]
+    },{
+        "id":12,
+        "page":"donation",
+        "page_type":"normal",
+        "symbol":"DOT",
+        "name":"Distribution",
+        "type":"",
+        "color":"bg-success-800",
+        "icon":" icon-gift",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"FMYB_HD",
+                "text":"Insert Manually",
+                "icon":"icon-pencil4",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-primary",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"insertManualy"
+            },{
+                "id"  :"DOTC_HD",
+                "text":"Insert",
+                "icon":"icon-file-download",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-success",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"insertCSVFile"
+            },{
+                "id"  :"DOTA_TB",
+                "text":"View Distribution",
+                "icon":"icon-eye4",
+                "color":"info",
+                "condition":[
+                ],
+                "value":["FMYID"],
+                "default":1,
+                "functionName":"viewdonation"
+            }
+        ]
+    },{
+        "id":21,
+        "page":"donation2",
+        "page_type":"normal",
+        "symbol":"DST",
+        "name":"Distribution 2",
+        "type":"",
+        "color":"bg-success-300",
+        "icon":" icon-gift",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"DSTB_HD",
+                "text":"Insert Manually",
+                "icon":"icon-pencil4",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-primary",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"insertManualy"
+            },{
+                "id"  :"DSTC_HD",
+                "text":"Insert",
+                "icon":"icon-file-download",
+                "color":"btn btn-labeled btn-labeled-left heading-btn btn-success",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"insertCSVFile"
+            }
+        ]
+    },{
+        "id":13,
+        "page":"donationview",
+        "page_type":"normal",
+        "symbol":"DTT",
+        "name":"Distribution View",
+        "type":"",
+        "color":"bg-green-800",
+        "icon":"icon-eye4",
+        "show":"none",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"admin",
+            "title":"Admin",
+            "dir":"right"
+        },
+        "buttons":[
+           {
+                "id"  :"DTTD_TB",
+                "text":"Delete Distribution",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[],
+                "value":["DOTID","FMYID"],
+                "default":1,
+                "functionName":"deletedonation"
+            },{
+                "id"  :"DTTV_TB",
+                "text":"View Distribution",
+                "icon":"icon-eye4",
+                "color":"info",
+                "condition":[
+                ],
+                "value":["DOTID"],
+                "default":1,
+                "functionName":"viewdonation"
+            }
+        ]
+    },{
+        "id":14,
+        "page":"round",
+        "page_type":"normal",
+        "symbol":"RND",
+        "name":"Round Number",
+        "type":"",
+        "color":"bg-danger-800",
+        "icon":"icon-history",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"donation",
+            "title":"Distribution",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"RNDA_HD",
+                "text":"Add New Round",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":"addingButton"
+            },{
+                "id"  :"RNDE_TB",
+                "text":"Edit Round",
+                "icon":"icon-pencil7",
+                "color":"primary",
+                "condition":[],
+                "value":["RNDID"],
+                "default":1,
+                "functionName":"editround"
+            },{
+                "id"  :"RNDD_TB",
+                "text":"Delete Round",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[],
+                "value":["RNDID"],
+                "default":1,
+                "functionName":"deleteround"
+            }
+        ]
+    },{
+        "id":4,
+        "page":"profile",
+        "page_type":"normal",
+        "symbol":"PRF",
+        "name":"Profile",
+        "type":"",
+        "color":"bg-purple-300",
+        "icon":"icon-user-tie",
+        "show":"none",
+        "create":"yes",  
+        "navbar":{
+            "type":"single",
+            "id":"pro",
+            "title":"Profile",
+            "dir":"right"
+        },   
+        "buttons":[
+            {
+                "id"  :"PRFPI",
+                "text":"Change Profile Image",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            },{
+                "id"  :"PRFCI",
+                "text":"Change Cover Image",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            },{
+                "id"  :"PRFIP",
+                "text":"Change Profile Information",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            },{
+                "id"  :"PRFCP",
+                "text":"Change Password",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            }
+        ]
+    },{ 
+        "id":5,
+        "page":"admin",
+        "page_type":"normal",
+        "symbol":"ADM",
+        "name":"Manage Staff",
+        "type":"",
+        "color":"bg-green-600",
+        "icon":"icon-user-plus",
+        "show":"both",
+        "create":"yes",   
+        "navbar":{
+            "type":"dropdown",
+            "id":"setting",
+            "title":"Setting",
+            "dir":"right"
+        }, 
+        "buttons":[
+            {
+                "id"  :"ADMA_HD",
+                "text":"Add New Staff",
+                "icon":"icon-user-plus",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "style":"",
+                "default":1,
+                "functionName":"addingButton"
+            },{
+                "id"  :"ADMD_TB",
+                "text":"Delete User",
+                "icon":"icon-trash",
+                "color":"danger",
+                "condition":[],
+                "value":["ADMID"],
+                "style":"",
+                "default":1,
+                "functionName":"deleteAdmin"
+            },{
+                "id"  :"ADME_TB",
+                "text":"Edit User",
+                "icon":"icon-pencil7",
+                "color":"primary",
+                "condition":[],
+                "value":["ADMID","ADMUsername","ADMFullname","ADMEmail","ADMPhoneNumber","ADMProfileType"],
+                "style":"",
+                "default":1,
+                "functionName":"editAdmin"
+            },{
+                "id"  :"ADMAP_TB",
+                "text":"Active User",
+                "icon":"icon-user-check",
+                "color":"info",
+                "condition":[
+                    ["ADMDeleted","eq",2]
+                ],
+                "value":["ADMID","ADMUsername"],
+                "style":"",
+                "default":1,
+                "functionName":"activeAdmin"
+            },{
+                "id"  :"ADMDP_TB",
+                "text":"Deactive User",
+                "icon":"icon-user-block",
+                "color":"warning",
+                "condition":[
+                    ["ADMDeleted","eq",0]
+                ],
+                "value":["ADMID","ADMUsername"],
+                "style":"",
+                "default":1,
+                "functionName":"deactiveAdmin"
+
+            },{
+                "id"  :"ADMPA_TB",
+                "text":"Adding Permission",
+                "icon":"icon-tab",
+                "color":"primary",
+                "condition":[
+                    ["ADMProfileType","eq",0]
+                ],
+                "value":["ADMID"],
+                "style":"",
+                "default":1,
+                "functionName":"roleAdmin"
+            },{
+                "id"  :"ADMC_TB",
+                "text":"Adding Camp",
+                "icon":" icon-home9",
+                "color":"success",
+                "condition":[
+                ],
+                "value":["ADMID"],
+                "style":"",
+                "default":1,
+                "functionName":"campAdmin"
+            }
+        ]
+    },{
+        "id":6,
+        "page":"setting",
+        "page_type":"normal",
+        "symbol":"STT",
+        "name":"System Settings",
+        "type":"",
+        "color":"bg-blue-800",
+        "show":"both",
+        "icon":" icon-cog4",
+        "create":"yes",
+        "navbar":{
+            "type":"dropdown",
+            "id":"setting",
+            "title":"Setting",
+            "dir":"right"
+        },
+        "buttons":[
+            {
+                "id"  :"STTV_PG",
+                "text":"Change System Info",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":0,
+                "functionName":""
+            },{
+                "id"  :"STTF_PG",
+                "text":"Change Company Info",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":0,
+                "functionName":""
+            }
+        ]
+    },{
+        "id":7,
+        "page":"dashboard",
+        "page_type":"normal",
+        "symbol":"DSH",
+        "name":"Dashboard",
+        "type":"",
+        "color":"bg-defualt-800",
+        "show":"both",
+        "icon":" icon-pie-chart3 ",
+        "create":"yes",
+        "navbar":{
+            "type":"dropdown",
+            "id":"gen",
+            "title":"General",
+            "dir":"left"
+        },
+        "buttons":[]
+    },{
+        "id":8,
+        "page":"report",
+        "page_type":"normal",
+        "symbol":"REP",
+        "name":"Reports",
+        "type":"",
+        "color":"bg-warning-300",
+        "show":"both",
+        "icon":"icon-stats-dots",
+        "create":"yes",
+        "navbar":{
+            "type":"dropdown",
+            "id":"gen",
+            "title":"General",
+            "dir":"left"
+        },
+        "buttons":[
+            {
+                "id"  :"distribution_RP",
+                "text":"Round Report",  
+                "default":1,
+                "type":"",
+                "show":"both"
+
+            },{
+                "id"  :"contractor_RP",
+                "text":"Kerosene Distribution",  
+                "default":1,
+                "type":"",
+                "show":"both"
+            },{
+                "id"  :"voucher_RP",
+                "text":"Voucher Distribution",  
+                "default":1,
+                "type":"",
+                "show":"both"
+            },{
+                "id"  :"notreceived_RP",
+                "text":"Not Received Family",  
+                "default":1,
+                "type":"",
+                "show":"both"
+            },{
+                "id"  :"rounddetail_RP",
+                "text":"Family Detail For All Rounds",  
+                "default":1,
+                "type":"",
+                "show":"both"
+            },{
+                "id"  :"roundtotal_RP",
+                "text":"Round Distribution",  
+                "default":1,
+                "type":"",
+                "show":"both"
+            }
+        ]
+    },{
+        "id":1,
+        "page":"systemlog",
+        "page_type":"normal",
+        "symbol":"LOG",
+        "name":"System Log",
+        "type":"devloper",
+        "color":"bg-pink-600",
+        "icon":"icon-lock2",
+        "show":"both",
+        "create":"yes",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"admin",
+            "title":"Admin",
+            "dir":"right"
+        },
+        "buttons":[
+            {
+                "id"  :"LOGVD",
+                "text":"View Detail Information",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            },{
+                "id"  :"LOGFT",
+                "text":"Filter Table",
+                "icon":"",
+                "color":"",
+                "condition":[],
+                "value":[],
+                "default":1,
+                "functionName":""
+            }
+        ]
+    },{
+        "id":15,
+        "page":"distribution",
+        "page_type":"report",
+        "symbol":"RND",
+        "name":"Round Report",
+        "color":"bg-brown-600",
+        "icon":" icon-home9",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[
+          
+        ]
+    },{
+        "id":16,
+        "page":"contractor",
+        "page_type":"report",
+        "symbol":"FMY",
+        "name":"Kerosene Distribution",
+        "color":"bg-green-600",
+        "icon":" icon-man-woman",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[
+          
+        ]
+    },{
+        "id":17,
+        "page":"voucher",
+        "page_type":"report",
+        "symbol":"FPR",
+        "name":"Voucher Distribution",
+        "color":"bg-blue-600",
+        "icon":" icon-man-woman",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[   
+        ]
+    },{
+        "id":18,
+        "page":"notreceived",
+        "page_type":"report",
+        "symbol":"NRF",
+        "name":"Not Received Family",
+        "color":"bg-danger-600",
+        "icon":" icon-man-woman",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[   
+        ]
+    },{
+        "id":19,
+        "page":"rounddetail",
+        "page_type":"report",
+        "symbol":"RRD",
+        "name":"Family Detail For All Rounds",
+        "color":"bg-perple-600",
+        "icon":" icon-man-woman",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[   
+        ]
+    },{
+        "id":20,
+        "page":"roundtotal",
+        "page_type":"report",
+        "symbol":"RRT",
+        "name":"Round Distribution",
+        "color":"bg-warning-600",
+        "icon":"icon-books",
+        "create":"yes",
+        "type":"",
+        "show":"both",
+        "buttonText":"",
+        "navbar":{
+            "type":"dropdown",
+            "id":"report",
+            "title":"Report",
+            "dir":"left"
+        },
+        "buttons":[   
+        ]
+    }
+]
